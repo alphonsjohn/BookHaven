@@ -1,0 +1,275 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Bodoni Moda SC", serif;
+}
+h1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    text-align: center;
+}
+i{
+    margin: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(196, 165, 42, 0.589);
+    z-index: 1000;
+}
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+.new{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#background{
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/29/10/38/bookshop-5870155_1280.jpg);
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+.row{
+    width: 100%;
+    height: 600px;
+    background-color:  burlywood;
+    /* align to row basis */
+    display: flex;
+    /* left and right alignment */
+    justify-content: space-evenly;
+    /* up&down alignment */
+    align-items: center;
+
+}
+
+.col{
+    width:250px;
+    height:550px;
+    background-color: rgba(174, 139, 144, 0.648);
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.row1{
+    width: 100%;
+    height: 600px;
+    background-color:  burlywood;
+    /* align to row basis */
+    display: flex;
+    /* left and right alignment */
+    justify-content: space-evenly;
+    /* up&down alignment */
+    align-items: center;
+
+}
+
+.coll{
+    width:250px;
+    height:550px;
+    background-color:  rgba(174, 139, 144, 0.648);
+    margin: 10px;
+}
+
+img{
+    width: 250px;
+    height:150px ;
+
+
+}
+#underline{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+#star{
+    text-align: center;
+}
+p{
+     margin: 10px;
+    text-align: justify;
+}
+#buy{
+    margin-left: 30px;
+}
+ /* footer{
+    width:100%;
+    height: 60px;
+    background-color: rgb(71, 32, 32);
+}
+footer{
+    width:100% ;
+    height:200px ;
+    background-color: rgba(196, 165, 42, 0.589);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+     */
+
+.row4{
+    font-size: 30px;
+}
+
+ .search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #777;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 5px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px; /* Position from the top */
+    right: 10px; /* Position from the right */
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#arrivals{
+    background-color: burlywood;
+
+}
+#about{
+    background-color: burlywood ;
+}
+.About{
+    display: flex;
+    justify-content: space-around;
+}
+.about1{
+    margin: 40px;
+    padding: 20px;
+}
+.about1 h2{
+    font-size: xx-large;
+}
+.about1 p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #5f3502b1;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+.reach{
+    align-items: center;
+    text-align: center;
+    margin-right: 500px;
+}
+#para{
+    text-align: center;
+}
+#right{
+    text-align: center;
+
+}
+
+.footer-content {
+   text-align: center;
+    align-items: end;
+    margin-left: 500px;
+} 
+
+.footer-socials {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #f0a500; /* Example hover color */
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-socials {
+        margin-top: 10px;
+    }
+} */
+
+
+
+
